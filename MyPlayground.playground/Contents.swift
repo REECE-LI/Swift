@@ -271,7 +271,7 @@
 //}
 
 
-let str = "abcdefg"
+//let str = "abcdefg"
 
 //print(str.count)
 //
@@ -282,6 +282,22 @@ let str = "abcdefg"
 //print(str[begin..<end])
 
 
-if str.contains("j") {
-    print("yes")
-}
+//if str.contains("j") {
+//    print("yes")
+//} else {
+//    print("no")
+//}
+
+//Array 的用法
+
+var arry = Array(repeating: 0, count: 100)
+
+print(arry)
+
+//构造 出二维数组  二维数组中 元素都为 1 2列 3行
+var matrix = Array(repeating: Array(repeating: 1, count: 2), count: 3)
+
+print(matrix)
+
+
+//剩下的和python几乎一样 遇到的时候再补充
